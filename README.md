@@ -1,15 +1,18 @@
 ## INTRODUCCION ##
 
 
-En en este taller vamos a realizar un ejercicio completo con Qgis en el que se va a realizar operaciones a tablas, asignación de datos mediante la unión de tablas y capas, simbolización de nuestras capas y por último la publicación de nuestros resultados vía web.
+En este taller vamos a realizar un ejercicio con Qgis en el que se va a realizar las siguientes tareas: 
+
+- Operaciones con tablas, 
+- Asignación de datos mediante la unión de tablas y capas
+- Simbolización de capas
+- Publicación de nuestros resultados vía web.
 
 El objetivo es la representación de resultados electorales en cataluña.
 
-Algunos ejemplos similares son: 
+Un ejemplo similar a lo que pretendemos realizar se puede visualizan en: 
 
  [Election 2015 results MAPPED: 2015 full list](http://www.telegraph.co.uk/news/general-election-2015/11584325/full-results-map-uk-2015.html)
-
-
 
 
 #1. Cargar capas shape y tablas
@@ -141,9 +144,9 @@ Una vez finalizado la exportación, la aplicación nos genera un directorio con 
 
 ###pero.. ¿como visualizo mis datos en la web?###
 
-Tan sólo nos queda subir nuestros ficheros a algún repositorio web y llamar a nuestro fichero index.html. Para nuestro ejemplo hemos utilizado  [neocities](https://neocities.org/) que nos permite subir nuestros ficheros hasta un límite de 100 MB de forma gratuita.
+Tan sólo nos queda subir nuestros ficheros a algún repositorio web. Para nuestro taller, hemos utilizado  [neocities](https://neocities.org/) que nos permite subir nuestros ficheros hasta un límite de 100 MB de forma gratuita.
 
-Para subir nuestros ficheros, basta con crearse una cuenta almacenar los ficheros generados por la aplicación qgis2web.
+Para subir nuestros ficheros, basta con crearse una cuenta y almacenar los ficheros generados por la aplicación qgis2web.
 
 ![gitHub fork](/img/neocities.png)
 

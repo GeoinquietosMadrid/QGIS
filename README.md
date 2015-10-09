@@ -1,7 +1,6 @@
-## INTRODUCCION ##
+## INTRODUCCIÓN ##
 
-
-En este taller vamos a realizar un ejercicio con Qgis en el que se va a realizar las siguientes tareas: 
+En este taller  vamos a realizar un ejercicio con Qgis en el que se va a realizar las siguientes tareas: 
 
 - Operaciones con tablas, 
 - Asignación de datos mediante la unión de tablas y capas

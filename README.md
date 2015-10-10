@@ -1,10 +1,11 @@
-## INTRODUCCION ##
+## INTRODUCCIÓN ##
 
+En este taller se ha preparado un ejercicio con Qgis en el que se van a realizar las siguientes tareas:
 
-En este taller vamos a realizar un ejercicio con Qgis en el que se va a realizar las siguientes tareas: 
-
-- Operaciones con tablas, 
+- Cargar capas
+- Operaciones con tablas
 - Asignación de datos mediante la unión de tablas y capas
+- Instalacion de complementos para Qgis
 - Simbolización de capas
 - Publicación de nuestros resultados vía web.
 
@@ -42,7 +43,7 @@ Una vez finalizado el proceso anterior, el proyecto tendrá este aspecto.
 
 #2. Operaciones entre columnas de una tabla.
 
-Añadir campo nuevo a la tabla 12.dbg llamado “*porc_votos*” de tipo numérico con la calculadora de campos de Qgis ![gitHub fork](/img/calculadora_campos.JPG)
+Añadir campo nuevo a la tabla 12.dbg llamado “*porc_votos*” de tipo numérico con la calculadora de campos de Qgis ![gitHub fork](/img/calculadora_campos.jpg)
 	
 Calculamos el nuevo campo sumando los campos de CIU+ERC+CUP.
 
@@ -56,7 +57,7 @@ Comprobar como al final de la tabla 12.dbg nos ha añadido el nuevo campo y lo h
 
 #3. Creación de grid-malla (cartograma)
 
-Este paso consiste en la creación de una malla similar la del objetivo con el fin de 
+Este paso consiste en la creación de una malla similar a la de este ejemplo [Election 2015 results MAPPED: 2015 full list](http://www.telegraph.co.uk/news/general-election-2015/11584325/full-results-map-uk-2015.html)
 
 Para pode generar la malla, es necesario instalar el complemento [mmqgis](http://michaelminn.com/linux/mmqgis/). Desde el menú "complementos/Administrar y gestionar complementos" buscamos el nombre complemento a instalar y presionamos sobre la botón "INSTALAR COMPLEMENTO"
 
@@ -79,13 +80,18 @@ En el siguiente menú, aplicamos las opciones de la siguiente imagen:
 
 El resultado será una malla hexagonal y una vez añadida a nuestra vista tendrá el siguiente aspecto:
 
+![gitHub fork](/img/menu_mmqgis_6.png)
+
+Llegados a este punto, habría que eliminar los hexágonos que no tocan a nuestra capa vectorial y asignarle información a cada elemento. Para continuar con nuestro ejercicio cogeremos una capa ya preparada **capa_ grid_base.shp**
+
+
 #4. Añadir información de una tabla al grid
 
-Para la realización de este paso, vamos a utilizar la capa que está en el fichero comarcas2014grid.zip ya que contiene los campos necesarios para poder transferirle información.
+Para la realización de este paso, vamos a utilizar la capa que está en el fichero comarcas2014grid.zip ya que contiene los campos necesarios para poder añadirle información.
 
-![gitHub fork](/img/malla_inicial.png)
+![gitHub fork](/img/malla_inicial.PNG)
 
-La tabla origen es la **12.dbg** y la capa destino es la capa **capa_ grid_base**
+La tabla origen es la **12.dbg** y la capa destino es la capa **capa_ grid_base.shp**
 
 Para realizar esta tarea, utilizamos  el menú Union.
  1.- Abrimos las propiedades de la capa: (Botón derecho presionando sobre la capa)

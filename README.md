@@ -87,9 +87,9 @@ Llegados a este punto, habría que eliminar los hexágonos que no tocan a nuestr
 
 #4. Añadir información de una tabla al grid
 
-Para la realización de este paso, vamos a utilizar la capa que está en el fichero comarcas2014grid.zip ya que contiene los campos necesarios para poder transferirle información.
+Para la realización de este paso, vamos a utilizar la capa que está en el fichero comarcas2014grid.zip ya que contiene los campos necesarios para poder añadirle información.
 
-![gitHub fork](/img/malla_inicial.png)
+![gitHub fork](/img/malla_inicial.PNG)
 
 La tabla origen es la **12.dbg** y la capa destino es la capa **capa_ grid_base.shp**
 

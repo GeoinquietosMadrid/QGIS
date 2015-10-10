@@ -27,7 +27,7 @@ Un ejemplo similar a lo que pretendemos realizar se puede visualizan en:
 [Tablas](/datos/tablas.rar): Tablas de resultados electorales periodo 2003-2012 en formato .dbf
 
 
- Cargamos las capas y tablas a Qgis : ![gitHub fork](/img/btn_add_capas.png)
+ Cargamos las capas (archivos con extensióin .shp) y tablas (escogemos una tabla, con formato .dfb) a Qgis : ![gitHub fork](/img/btn_add_capas.png)
 
 
 ![gitHub fork](/img/capas.png)
